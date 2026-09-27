@@ -1,0 +1,29 @@
+*{
+    scroll-behavior: smooth;
+    font-family: "El Messiri",sans-serif;
+}
+
+@font-face {
+    font-family: El Messiri;
+    src: url(./fonts/ElMessiri.ttf);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p span{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+} 
+.logo p{
+    font-size: 16.2px;
+    margin: 0px;
+    line-height: 1;
+
+}
+.logo img{
+    width: 67px;
+    height: 67px;
+}
