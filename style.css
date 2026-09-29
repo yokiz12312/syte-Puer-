@@ -1,6 +1,12 @@
 *{
     scroll-behavior: smooth;
     font-family: "El Messiri",sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
 }
 
 @font-face {
@@ -27,3 +33,5 @@
     width: 67px;
     height: 67px;
 }
+
+
