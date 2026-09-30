@@ -4,6 +4,22 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+background-color: #F9F6F2;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.button{
+    font-size: 20px;
+    font-weight:bolder;
+    color: #A6342B;
+    border: 2px solid #A6342B;
+    border-radius: 6px;
+    padding: 9px 15px;   
+}
 
 a{
     color: black;
@@ -12,6 +28,25 @@ a{
 @font-face {
     font-family: El Messiri;
     src: url(./fonts/ElMessiri.ttf);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head .button{
+    font-size: 20px;
+    font-weight:bolder;
+    color: #A6342B;
+    border: 2px solid #A6342B;
+    border-radius: 6px;
+    padding: 9px 15px;   
+}
+
+.head nav{
+    display: flex;
+    gap: 24px;
 }
 
 .logo{
@@ -33,5 +68,3 @@ a{
     width: 67px;
     height: 67px;
 }
-
-
