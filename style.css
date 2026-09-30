@@ -36,7 +36,7 @@ a{
     align-items: center;
 }
 .head .button{
-    font-size: 20px;
+    font-size: 22px;
     font-weight:bolder;
     color: #A6342B;
     border: 2px solid #A6342B;
@@ -67,4 +67,25 @@ a{
 .logo img{
     width: 67px;
     height: 67px;
+}
+
+
+.info-bacground{
+    width: 1242px;
+    height: 630px;
+    background-image: url(./images/ingo-bacgrounf.jpg);
+    padding: 25px 10px;
+}
+.info-bacground h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+.info-bacground p{
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+.info-bacground a{ 
+    font-weight: 300;
+    color: white;
+    background-color: #A6342B;
 }
