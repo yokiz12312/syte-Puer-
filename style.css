@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.mby-120{
+    margin-bottom: 120px;
+}
+
 body {
     background-color: #F9F6F2;
 }
@@ -33,6 +37,10 @@ a {
 
 p {
     letter-spacing: 5%;
+}
+
+.headline{
+    
 }
 
 @font-face {
