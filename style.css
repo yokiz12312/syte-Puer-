@@ -1,35 +1,37 @@
-*{
+* {
     scroll-behavior: smooth;
-    font-family: "El Messiri",sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
-body{
-background-color: #F9F6F2;
+
+body {
+    background-color: #F9F6F2;
 }
 
-.montserrat{
-    font-family: "Montserrat", sans-serif;
+.el-messiri {
+    font-family: "El Messiri", sans-serif;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.button{
+
+.button {
     font-size: 20px;
-    font-weight:bolder;
+    font-weight: bolder;
     color: #A6342B;
     border: 2px solid #A6342B;
     border-radius: 6px;
-    padding: 9px 20px;   
+    padding: 9px 20px;
 }
 
-a{
+a {
     color: black;
 }
 
-p{
+p {
     letter-spacing: 5%;
 }
 
@@ -37,67 +39,75 @@ p{
     font-family: El Messiri;
     src: url(./fonts/ElMessiri.ttf);
 }
+
 @font-face {
     font-family: Montserrat;
     src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header .button{
+
+.header .button {
     font-size: 22px;
-    font-weight:bolder;
+    font-weight: bolder;
     color: #A6342B;
     border: 2px solid #A6342B;
     border-radius: 6px;
-    padding: 9px 19px;   
+    padding: 9px 19px;
 }
 
-.header nav{
+.header nav {
     display: flex;
     gap: 24px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
-.logo p span{
+
+.logo p span {
     font-size: 36px;
     font-weight: 900;
     line-height: 1;
-} 
-.logo p{
+}
+
+.logo p {
     font-size: 16.2px;
     margin: 0px;
     line-height: 1;
 
 }
-.logo img{
+
+.logo img {
     width: 67px;
     height: 67px;
 }
 
 
-.info-bacground{
+.info-bacground {
     width: 1242px;
     height: 630px;
     background-image: url(./images/ingo-bacgrounf.jpg);
     padding: 25px 10px;
 }
-.info-bacground h1{
+
+.info-bacground h1 {
     letter-spacing: 6.7%;
     font-size: 64px;
     font-weight: 400;
 }
-.info-bacground p{
+
+.info-bacground p {
     font-size: 22px;
     margin-bottom: 45px;
 }
-.info-bacground a{ 
+
+.info-bacground a {
     font-weight: 300;
     color: white;
     background-color: #A6342B;
@@ -105,22 +115,45 @@ p{
 
 
 
-.advantages{
+.advantages {
     display: flex;
 }
-.advantages .block{
+
+.advantages .block {
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.advantages p{
-    font-size: 18px;
+
+.advantages p {
+    font-size: 16px;
     color: #000000;
     width: 220px;
     text-align: center;
+    font-weight: 300;
 }
 
-.advantages h2{
+.advantages h2 {
+    color: #A6342B;
     margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.block {
+    position: relative;
+    border-block: 1px solid #BBBAB7;
+}
+
+.block:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: #BBBAB7;
 }
