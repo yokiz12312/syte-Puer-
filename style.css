@@ -8,6 +8,10 @@ body{
 background-color: #F9F6F2;
 }
 
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -18,33 +22,41 @@ background-color: #F9F6F2;
     color: #A6342B;
     border: 2px solid #A6342B;
     border-radius: 6px;
-    padding: 9px 15px;   
+    padding: 9px 20px;   
 }
 
 a{
     color: black;
 }
 
+p{
+    letter-spacing: 5%;
+}
+
 @font-face {
     font-family: El Messiri;
     src: url(./fonts/ElMessiri.ttf);
 }
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
 
-.head{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.head .button{
+.header .button{
     font-size: 22px;
     font-weight:bolder;
     color: #A6342B;
     border: 2px solid #A6342B;
     border-radius: 6px;
-    padding: 9px 15px;   
+    padding: 9px 19px;   
 }
 
-.head nav{
+.header nav{
     display: flex;
     gap: 24px;
 }
@@ -77,6 +89,7 @@ a{
     padding: 25px 10px;
 }
 .info-bacground h1{
+    letter-spacing: 6.7%;
     font-size: 64px;
     font-weight: 400;
 }
@@ -88,4 +101,26 @@ a{
     font-weight: 300;
     color: white;
     background-color: #A6342B;
+}
+
+
+
+.advantages{
+    display: flex;
+}
+.advantages .block{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.advantages p{
+    font-size: 18px;
+    color: #000000;
+    width: 220px;
+    text-align: center;
+}
+
+.advantages h2{
+    margin-bottom: 5px;
 }
